@@ -1,3 +1,6 @@
 {
-    "dotnet.defaultSolution": "learningapp.sln"
+    "dotnet.defaultSolution": "learningapp.sln",
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "learningapp\\bin\\Release\\net8.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/0c0f23c1-81f8-483f-a5ce-a57cebd93390/resourceGroups/app-grp-nandakumar.pongupala/providers/Microsoft.Web/sites/az204learningapp/slots/staging"
 }
